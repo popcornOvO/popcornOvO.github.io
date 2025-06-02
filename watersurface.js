@@ -79,7 +79,7 @@ let gridCountX, gridCountY;
 
 const KNIFE_RANGE = 8;
 const brokenLinks = [];
-const RECOVER_TIME_MS = 100;
+const RECOVER_TIME_MS = 150;
 
 let mousePos = { x: 0, y: 0 };
 
