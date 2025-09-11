@@ -55,6 +55,16 @@ body > *:nth-child(5) {
   animation: none !important;
 }
 
+.content h4 {
+  font-family:'Courier New', Courier, monospace;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #5b5d64;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
 
 .name {
   display: inline;
@@ -91,7 +101,8 @@ body > *:nth-child(5) {
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-top: 15px;
+  margin-top: 25px;
+  margin-bottom: 90px;
   
 }
 
@@ -124,6 +135,9 @@ body > *:nth-child(5) {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  margin-top: 25px;
+  margin-bottom: 90px;
 }
 
 .title {
@@ -138,6 +152,8 @@ body > *:nth-child(5) {
   font-family:'Courier New', Courier, monospace;
   color: #484955;
 }
+
+
 
 canvas {
   border: 1px solid #484955;
@@ -265,4 +281,20 @@ audio {
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
   color: #5b5d64;
+}
+
+.pedals {
+  display: flex;
+  gap: 0px;
+  justify-content: center;
+  background-color: rgb(238, 222, 196);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.pedals .post-image {
+  width: 250px;
+  height: auto;
 }
