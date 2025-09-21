@@ -298,3 +298,19 @@ audio {
   width: 250px;
   height: auto;
 }
+
+.crt {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr; 
+  gap: 0px; 
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.crt img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
